@@ -1,0 +1,86 @@
+* {
+    font-size: 21px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: solid 6px purple;
+    border-radius: 1%;
+}
+
+.user {
+    display: flex;
+    color: purple;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+    width: 130px;
+    height: 130px;
+    border: solid 4px purple;
+    border-radius: 100%;
+    padding: 4px;
+}
+
+.stars input {
+    display: none;   
+}
+.stars label {
+    color: #ccc;
+    font-size: 30px;    
+}
+.stars label:hover,
+.stars label:hover ~ label,  
+.stars input:checked ~ label {
+color: purple;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 8px;
+}
+
+.button--purple {
+    color: white;
+    background-color: rebeccapurple;
+    padding: 15px;
+    border: solid 2px purple;
+    border-radius: 6px;
+    width: 40%;
+}
+
+.button--white {
+    color: rebeccapurple;  
+    background-color: white;
+    padding: 15px;
+    border: solid 2px purple;
+    border-radius: 6px;
+    width: 40%;
+}
